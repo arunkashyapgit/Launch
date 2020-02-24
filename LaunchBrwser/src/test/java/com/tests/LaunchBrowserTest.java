@@ -13,7 +13,7 @@ public class LaunchBrowserTest{
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("http:www.google.com");
+		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
 		
 
